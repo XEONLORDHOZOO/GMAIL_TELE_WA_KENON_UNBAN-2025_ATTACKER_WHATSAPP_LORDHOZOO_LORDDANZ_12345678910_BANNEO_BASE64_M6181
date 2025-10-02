@@ -96,8 +96,8 @@ async def button(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def get_weather():
     # Replace 'your_city' with the desired city
-    city = 'your_city'
-    api_key = 'your_openweathermap_api_key'
+    city = 'rahasia'
+    api_key = '4jbsksjshalamanagakahahan'
     url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric'
     response = requests.get(url)
     data = response.json()
